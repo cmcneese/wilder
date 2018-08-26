@@ -2,10 +2,28 @@ $c-is-background: #fff;
 $c-is-secondary: #044948;
 $c-is-divider: #787878;
 
+@import 'reset';
+
 body {
-    background: pink;
+    background: $c-is-background;
+    display: grid;
+
+}
+
+h1 {
+    margin: auto;
+    height: 10em;
 }
 
 .section {
     background-color: $c-is-divider;
+    height: 7em;
+    display: flex;
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
