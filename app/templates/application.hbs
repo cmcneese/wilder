@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -11,7 +12,32 @@
     <h2>stay tuned...</h2>
         
     </section>
-    <h2>for the new us!</h2>
+    <h3>for the new us!</h3>
+    <footer>
+        <div class="contact--us">
+            <form name="contact" method="POST" netlify>
+                <p>
+                    <label>Your Name: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Your Role: <select name="role[]" multiple>
+                            <option value="leader">Leader</option>
+                            <option value="follower">Follower</option>
+                        </select></label>
+                </p>
+                <p>
+                    <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+
+        </div>
+    </footer>
 </body>
 </html>
 {{outlet}}

@@ -1,6 +1,7 @@
 $c-is-background: #fff;
 $c-is-secondary: #044948;
 $c-is-divider: #787878;
+$c-is-contact: #e8e8e8;
 
 @import 'reset';
 
@@ -17,7 +18,7 @@ h1 {
 
 .section {
     background-color: $c-is-divider;
-    height: 7em;
+    height: 50vh;
     display: flex;
 }
 
@@ -25,5 +26,19 @@ h2 {
     display: flex;
     margin: auto;
     align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    margin: auto;
+}
+
+.contact--us {
+    background: $c-is-secondary;
+    height: 100vh;
+}
+
+form {
+    background-color: $c-is-contact;
     justify-content: center;
 }
