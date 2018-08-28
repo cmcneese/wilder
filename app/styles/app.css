@@ -43,12 +43,20 @@ h3 {
   margin: auto;
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .contact--us {
   height: 100vh;
+  margin: auto;
 }
 
 form {
   background-color: #e8e8e8;
-  width: 100%;
+  width: 100vh;
+  height: 50vh;
 }
 /*# sourceMappingURL=app.css.map */

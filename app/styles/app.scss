@@ -33,12 +33,19 @@ h3 {
     margin: auto;
 }
 
+.wrapper {
+    display: flex;
+}
+
 .contact--us {
     // background: $c-is-secondary;
     height: 100vh;
+    margin: auto;
 }
 
  form {
     background-color: $c-is-contact;
-    width: 100%;
+    width: 100vh;
+    height: 50vh;
+
 }
