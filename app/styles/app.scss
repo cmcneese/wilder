@@ -6,7 +6,7 @@ $c-is-contact: #e8e8e8;
 @import 'reset';
 
 body {
-    background: $c-is-background;
+    background: linear-gradient($c-is-background, $c-is-contact);
     display: grid;
 
 }
@@ -34,7 +34,7 @@ h3 {
 }
 
 .contact--us {
-    background: $c-is-secondary;
+    // background: $c-is-secondary;
     height: 100vh;
 }
 
