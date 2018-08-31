@@ -54,9 +54,7 @@ h3 {
   margin: auto;
 }
 
-form {
-  background-color: #e8e8e8;
-  width: 100vh;
-  height: 50vh;
+.field {
+  width: 100%;
 }
 /*# sourceMappingURL=app.css.map */
