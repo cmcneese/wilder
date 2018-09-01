@@ -46,6 +46,7 @@
     "node": "6.* || 8.* || >= 10.*"
   },
   "dependencies": {
+    "babel": "^6.23.0",
     "bulma-start": "0.0.2",
     "gulp": "^3.9.1",
     "gulpfile": "^1.0.2"
