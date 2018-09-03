@@ -1,8 +1,4 @@
-/* @import 'sass/mystyles.scss' */
-/* @import 'reset'; */
-
 * {
-  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10,14 +6,21 @@
 }
 
 body {
+  height: 100%;
+  margin: 0;
   background: linear-gradient(#fff, #e8e8e8);
   display: -ms-grid;
   display: grid;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
-  margin: auto;
   height: 10em;
+  flex-direction: column;
 }
 
 .section {
