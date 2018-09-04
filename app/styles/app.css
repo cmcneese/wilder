@@ -94,7 +94,7 @@ textarea {
   -webkit-appearance: none;
   appearance: none;
   display: inline-block;
-  min- height: 36px;
+  min-height: 36px;
   padding: 8px 12px;
   width: 100%;
   margin-top: 5px;
@@ -116,7 +116,7 @@ input[type='submit'],
 button,
 .btn {
   background-color: #fff;
-  color: #e8e8e8e;
+  color: #e8e8e8;
   border: none;
   width: 165px;
   height: 35px;
